@@ -5,8 +5,7 @@ import urllib.request            #for reading in website
 generate = input("Enter strength of password (weak/medium/strong): ")
 
 
-characters = string.printable[0:-3]               #all characters
-numbers = string.digits                     #digits
+characters = string.printable[0:-3]         #all characters
 letter_upper = string.ascii_uppercase       #uppercase letters
 punct = string.punctuation                  #punctuation characters
 
